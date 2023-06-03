@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facts</title>
+    <link rel="stylesheet" href="../../static/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Submit a Fact!</h1>
+        <form action="/facts" methods="POST">
+            <label for="author">Your Name</label>
+            <input type="text" name="author"/>
+
+            <br>
+
+            <label for="fact">Your Animal Fact</label>
+            <textarea name="fact">
+
+            </textarea>
+            <input type="submit" value="Submit Your Fact!"/>
+
+        </form>
+        <a href="/pets"><-- go Back </a>
+    </div>
+</body>
+</html>
